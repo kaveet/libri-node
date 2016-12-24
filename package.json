@@ -1,0 +1,32 @@
+{
+  "name": "libri-node",
+  "version": "0.0.0",
+  "description": "A node wrapper for the official LibriVox API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveet/libri-node.git"
+  },
+  "keywords": [
+    "LibriVox",
+    "API",
+    "wrapper"
+  ],
+  "author": "Kaveet Laxmidas <kaveetlaxmidas@gmail.com> (http://github.com/kaveet)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaveet/libri-node/issues"
+  },
+  "homepage": "https://github.com/kaveet/libri-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
