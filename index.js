@@ -11,7 +11,10 @@ module.exports = {
      *                          title: all matching titles
      *                          genre: all projects of the matching genre
      *						    extended: =1 will return the full set of data about the project
+     *						    limit: default 50
+     *						    offset: default 0
      */
+    
 
     getAudiobooksWhere: function(where) {
 
@@ -45,10 +48,6 @@ module.exports = {
 
     getAudiobooksByTitle: function(title) {
     	return this.getAudiobooksWhere({ title: title });
-    }
-
-    getAudiobooksByGenre: function(genre) {
-    	return this.getAudiobooksWhere({ genre: genre });
     }
 
 };
