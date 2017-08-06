@@ -62,12 +62,12 @@ limit: upper limit on number of book results; default 50
 offset: number of results to skip; default 0
 ```
 
-###`librivox.getAudiobooksByAuthorLastName(string)`
+### `librivox.getAudiobooksByAuthorLastName(string)`
 
 #### Description
 Returns an array of book objects where author name exactly matches input string.
 
-###`librivox.getAudiobooksByTitle(string)`
+### `librivox.getAudiobooksByTitle(string)`
 
 #### Description
 Returns an array of book objects where book title exactly matches input string.
