@@ -45,7 +45,7 @@ librivox.getAudiobooksByAuthorLastName("Poe")
 
 ## API
 
-###`librivox.getAudiobooksWhere(params)`
+### `librivox.getAudiobooksWhere(params)`
 
 #### Description
 Returns an array of book objects matching the supplied parameters.
